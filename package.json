@@ -1,12 +1,27 @@
 {
-  "name": "Mangastuff",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "mangastuff",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bachtangthang/MangaCommerce.git"
+	},
+	"bugs": {
+		"url": "https://github.com/bachtangthang/MangaCommerce/issues"
+	},
+	"homepage": "https://github.com/bachtangthang/MangaCommerce#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
 }
