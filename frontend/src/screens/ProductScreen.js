@@ -1,14 +1,16 @@
 import React, { useEffect } from 'react';
 import Rating from '../components/Rating';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
 import { detailsProduct } from '../actions/productActions';
 
 const ProductScreen = (props) => {
+	const { id } = useParams();
 	const dispatch = useDispatch();
-	const productId = props.match.params.id;
+	const productId = id;
+	console.log(productId);
 	const productDetails = useSelector((state) => state.productDetails);
 	const { loading, error, product } = productDetails;
 
