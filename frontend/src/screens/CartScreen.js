@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useLocation, useNavigate, useParams } from 'react-router';
-import { addToCart } from '../actions/cartActions';
+import { addToCart, removeFromCart } from '../actions/cartActions';
 import MessageBox from '../components/MessageBox';
 import { Link } from 'react-router-dom';
 
@@ -22,14 +22,13 @@ const CartScreen = (props) => {
 		() => {
 			if (productId) {
 				dispatch(addToCart(productId, qty));
-				console.log(124);
 			}
 		},
 		[ dispatch, productId, qty ]
 	);
 
 	const removeFromCartHandler = (id) => {
-		//delete action
+		dispatch(removeFromCart(id));
 	};
 
 	const checkoutHandler = () => {
