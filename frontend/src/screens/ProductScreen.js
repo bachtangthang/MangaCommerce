@@ -58,7 +58,7 @@ const ProductScreen = (props) => {
 								<ul>
 									<li>
 										<div className="row">
-											<div>Status</div>
+											<div>Price</div>
 											<div className="price">${product.price}</div>
 										</div>
 									</li>
