@@ -27,7 +27,7 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			name: 'Saiki',
+			name: 'Kusso',
 			category: 'comedy',
 			image: '/images/p2.jpg',
 			price: 5,
@@ -38,7 +38,7 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			name: 'Saiki',
+			name: 'Naruto',
 			category: 'comedy',
 			image: '/images/p3.jpg',
 			price: 5,
@@ -49,7 +49,7 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			name: 'Saiki',
+			name: 'One Piece',
 			category: 'comedy',
 			image: '/images/p4.jpg',
 			price: 5,
@@ -60,7 +60,7 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			name: 'Saiki',
+			name: 'Bleach',
 			category: 'comedy',
 			image: '/images/p1.jpg',
 			price: 5,
@@ -71,7 +71,7 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			name: 'Saiki',
+			name: 'Toriko',
 			category: 'comedy',
 			image: '/images/p1.jpg',
 			price: 5,
@@ -82,7 +82,7 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			name: 'Saiki',
+			name: 'HunterxHunter',
 			category: 'comedy',
 			image: '/images/p1.jpg',
 			price: 5,
@@ -93,7 +93,7 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			name: 'Saiki',
+			name: 'Dragon Quest',
 			category: 'comedy',
 			image: '/images/p1.jpg',
 			price: 5,
