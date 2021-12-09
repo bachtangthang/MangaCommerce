@@ -16,7 +16,6 @@ const data = {
 	],
 	products: [
 		{
-			_id: '1',
 			name: 'Saiki',
 			category: 'comedy',
 			image: '/images/p1.jpg',
@@ -28,7 +27,6 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			_id: '2',
 			name: 'Saiki',
 			category: 'comedy',
 			image: '/images/p2.jpg',
@@ -40,7 +38,6 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			_id: '3',
 			name: 'Saiki',
 			category: 'comedy',
 			image: '/images/p3.jpg',
@@ -52,7 +49,6 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			_id: '3',
 			name: 'Saiki',
 			category: 'comedy',
 			image: '/images/p4.jpg',
@@ -64,7 +60,6 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			_id: '4',
 			name: 'Saiki',
 			category: 'comedy',
 			image: '/images/p1.jpg',
@@ -76,7 +71,6 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			_id: '5',
 			name: 'Saiki',
 			category: 'comedy',
 			image: '/images/p1.jpg',
@@ -88,7 +82,6 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			_id: '6',
 			name: 'Saiki',
 			category: 'comedy',
 			image: '/images/p1.jpg',
@@ -100,7 +93,6 @@ const data = {
 			description: 'story about a pyshic student'
 		},
 		{
-			_id: '7',
 			name: 'Saiki',
 			category: 'comedy',
 			image: '/images/p1.jpg',
