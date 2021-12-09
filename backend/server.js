@@ -2,9 +2,14 @@ import express from 'express';
 import mongoose from 'mongoose';
 import productRouter from './routers/productRouter.js';
 import userRouter from './routers/userRouter.js';
+import dotenv from 'dotenv';
 
+dotenv.config();
 const app = express();
 
+//parsing json data in body req
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 //connect to mongoose
 mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/mangastuff', {});
 
